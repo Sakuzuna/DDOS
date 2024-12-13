@@ -27,7 +27,7 @@ def make_request(url):
     response = requests.get(url)
     print(response.status_code)
     
-url = input(f"{Blue}[+]Вставьте ссылку: {Reset}")
+url = input(f"{Blue}[+]Вставьте ссылку/Input the link: {Reset}")
 
 while True:
     print(f"{Blue}Отправлено на пакеты на сайт{Reset}", {url}) 
